@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <echo message="Creating folder for the execution..."/>
+  <mkdir dir="/home/vagrant/Projects/SimpleAdder_deployment/target/Adder"/>
+  <mkdir dir="/home/vagrant/Projects/SimpleAdder_deployment/target/InputSource"/>
+</target>
+</project>
